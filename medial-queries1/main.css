@@ -1,3 +1,54 @@
 body {
-  background: blanchedalmond;
+  
+  background: black;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.a{
+  min-width: 150px;
+  min-height: 150px;
+  color: aqua;
+  border-style: dotted;
+  border-color: aqua;
+}
+.b{
+  
+  min-width: 150px;
+  min-height: 300px;
+  color: aqua;
+  border-style: dotted;
+  border-color: aqua; 
+}
+.c{
+  min-width: 150px;
+  min-height: 150px;
+  color: aqua;
+  border-style: dotted;
+  border-color: aqua;
+}
+
+@media (min-width:600px){
+.container {
+  flex-direction: column;
+}
+.a{ 
+  width: 100%;
+}
+.b{
+  width: 100%;
+}
+
+.c{
+  width: 100%;
+}
+
+
+
 }
